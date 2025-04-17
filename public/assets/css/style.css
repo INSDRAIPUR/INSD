@@ -422,4 +422,62 @@
     margin-right: auto;
     line-height: 1.6;
   }
+  .social-media-container {
+    margin-top: 2rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .social-media-title {
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+  }
+  
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: linear-gradient(to right, #e11d48, #2563eb);
+    color: white;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .social-link i {
+    font-size: 1.25rem;
+  }
+  
+  @media (max-width: 768px) {
+    .social-media-links {
+      gap: 1rem;
+    }
+  
+    .social-link {
+      width: 2.25rem;
+      height: 2.25rem;
+    }
+  
+    .social-link i {
+      font-size: 1.125rem;
+    }
+  }
   
